@@ -1,0 +1,7 @@
+torch
+torchvision
+medmnist==2.1.0
+tqdm
+pandas
+scikit-learn
+pydicom
