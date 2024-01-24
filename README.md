@@ -96,3 +96,20 @@ for dataset_tag in dataset_tag_list:
 
     pip install -U pip
     pip install -r requirements.txt
+
+
+# Citation
+If you find this repository useful in your research, please cite:
+```
+@inproceedings{kang2023one,
+  title={One-Shot Federated Learning on Medical Data Using Knowledge Distillation with Image Synthesis and Client Model Adaptation},
+  author={Kang, Myeongkyun and Chikontwe, Philip and Kim, Soopil and Jin, Kyong Hwan and Adeli, Ehsan and Pohl, Kilian M and Park, Sang Hyun},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={521--531},
+  year={2023},
+  organization={Springer}
+}
+```
+
+Thanks to works below for their implementations which were useful for this work.
+[DeepInversion](https://github.com/NVlabs/DeepInversion)
